@@ -10,6 +10,7 @@ import {
   Check,
   Play,
 } from "lucide-react"
+import { Analytics } from "@vercel/analytics/react"
 
 const baseUrl = "https://tgusernameinfo.shahadathassan.workers.dev/"
 const exampleUrl = `${baseUrl}?username=@listkiss&key=TGINFO-6129625814-466242`
@@ -471,6 +472,7 @@ export default function TGInfoLookupDocs() {
           </a>
         </div>
       </footer>
+      <Analytics />
     </div>
   )
 }
